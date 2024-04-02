@@ -1,0 +1,22 @@
+.tab-content{
+    display: none;
+}
+
+.tab-links{
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.tab-links:hover{
+    background-color: #ccc;
+}
+
+.tab-links.active{
+    background-color: #ccc;
+}
+
+.tab-content.active{
+    display: block;
+}
